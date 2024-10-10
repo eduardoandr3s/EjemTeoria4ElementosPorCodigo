@@ -53,11 +53,10 @@ private char grupo;
 
     @Override
     public String toString() {
-        return "AlumnoModel{" +
-                "nombre='" + nombre + '\'' +
-                ", apellidos='" + apellidos + '\'' +
-                ", ciclo='" + ciclo + '\'' +
-                ", grupo=" + grupo +
-                '}';
+        return "Alumno Creado" +'\n' + '\n'+
+                " Nombre: " + nombre +'\n'+'\n'+
+                " Apellidos: " + apellidos + '\n' +'\n'+
+                " Ciclo: " + ciclo + '\n' +'\n'+
+                " Grupo: " + grupo +'\n'+'\n'+'\n';
     }
 }
